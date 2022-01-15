@@ -28,6 +28,12 @@ first part of website styles
 }
 .header-part-img{
     margin-left: 450px;
+    transition: background-color 5s;
+}
+/* ----------------------------------transition part--------------------------- */
+.header-part-img:hover{
+    background-color: cadetblue;
+    border-radius: 50%;
 }
 /*--------------------------------webside's second part style------------------------------------  */
 .section-title{
@@ -53,7 +59,7 @@ first part of website styles
     text-decoration:none;
     color: mediumvioletred;
 }
-/* webside's third part */
+/* -------------------------webside's third part--------------------*/
 .third-section{
     background-color: whitesmoke;
     height: 400px;
@@ -68,7 +74,7 @@ first part of website styles
     margin-top: 60px;
     margin-left: 600px;
 }
-/* footer  */
+/*_______________________________________________ footer_______________________________________________  */
 footer{
 color: white;
 background-color: #00021f;
@@ -85,4 +91,37 @@ text-align: center;
 }
 .fa-google-plus-g{
     color: white;
+}
+/*---------------------------------------------- media quaries -------------------------------------------- */
+
+/* mobile devices */
+@media only screen and (max-width: 600px){
+    .head{
+        flex-direction: column;
+    }
+    .header-part-img{
+        margin-left:  1px;
+    }
+    .product-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .third-section{
+        width: 100%;
+    }
+}
+/* tablet devices */
+@media only screen and (min-width:600px) and (max-width:992px) {
+    .head{
+        flex-direction: column;
+    }
+    .header-part-img{
+        margin-left:  1px;
+    }
+    .product-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .third-section{
+        width: 100%;
+    }
+}
 }
