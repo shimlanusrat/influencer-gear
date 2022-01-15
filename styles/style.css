@@ -1,0 +1,88 @@
+/*---------------
+      fonts  
+----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+/*------------------------------------
+common styles and utilities
+------------------------------*/
+body{
+    font-family: 'Outfit', sans-serif;
+}
+/*----------------------------
+first part of website styles
+------------------------------*/
+.container{
+    margin: 100px;
+} 
+.head{
+    display: flex;
+}
+.button{
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    background-color:purple;
+    padding: 9px;
+    border-radius: 20px;
+}
+.header-part-img{
+    margin-left: 450px;
+}
+/*--------------------------------webside's second part style------------------------------------  */
+.section-title{
+    text-align: center;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 300px;
+    background-color: whitesmoke;
+}
+.product{
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+.fa-star, .fa-star-half-alt{
+    color: goldenrod;
+}
+.last-button{
+    text-decoration:none;
+    color: mediumvioletred;
+}
+/* webside's third part */
+.third-section{
+    background-color: whitesmoke;
+    height: 400px;
+    display: flex;
+}
+.last-part{
+    padding: 20px;
+    color: #00021f;
+    margin-left: 100px;
+}
+.last-part-img{
+    margin-top: 60px;
+    margin-left: 600px;
+}
+/* footer  */
+footer{
+color: white;
+background-color: #00021f;
+text-align: center;
+}
+.fa-instagram{
+    color: white;
+}
+.fa-twitter{
+    color: white;
+}
+.fa-facebook{
+    color:white;
+}
+.fa-google-plus-g{
+    color: white;
+}
